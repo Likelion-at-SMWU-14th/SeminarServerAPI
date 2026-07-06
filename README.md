@@ -1,6 +1,6 @@
 # SeminarServerAPI
 
-프론트-백엔드 **연동 세미나**용 TMI 방명록 CRUD API 서버입니다.
+프론트엔드 8주차 **연동 세미나**용 TMI 방명록 CRUD API 서버입니다 ~ 🦁
 
 <br>
 
