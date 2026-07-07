@@ -1,7 +1,8 @@
 from django.db import models
+from django.contrib.auth.models import User
 
 class Entry(models.Model):
-  author = models.CharField(max_length=50)
+  author = models.ForeignKey(User, on_delete=models.CASCADE)
   comment = models.TextField()
   timestamp = models.DateTimeField(auto_now_add=True)
 
